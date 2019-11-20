@@ -544,7 +544,7 @@ func KeyTap(tapKey string, args ...interface{}) string {
 		keyT     = "null"
 		keyArr   []string
 		num      int
-		keyDelay = 10
+		keyDelay = 2
 	)
 	// var ckeyArr []*C.char
 	ckeyArr := make([](*C.char), 0)
